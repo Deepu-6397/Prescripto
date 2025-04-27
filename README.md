@@ -19,10 +19,10 @@ Key highlights include:
 ## 🔗 Live Demos
 
 
-* 🌐 [User Site](https://www.google.com)
+* 🌐 [User Site](https://prescripto-frontend-lwb5.onrender.com/)
 
 
-* 🛠️ [Admin/Doctor Dashboard](https://www.google.com)
+* 🛠️ [Admin/Doctor Dashboard](https://prescripto-admin-3ooy.onrender.com/)
 
 ---
 

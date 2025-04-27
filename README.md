@@ -1,172 +1,183 @@
-🏥✨ Prescripto - Smart Healthcare & Appointment Management
-
-
-🌟 Project Overview
-
-
+# 🏥✨ Prescripto - Smart Healthcare & Appointment Management
+---
+## 🌟 Project Overview
 A Full Stack Doctor Appointment Booking System built with the MERN Stack (MongoDB, Express.js, React.js, Node.js).
 This platform provides a seamless appointment scheduling experience between patients and doctors, along with a powerful admin dashboard for system management. 🧑‍⚕️👩‍⚕️
 
 Key highlights include:
+-
+*  🔐 Three levels of authentication
 
+*  💳 Integrated online payment system
 
-🔐 Three levels of authentication
-
-💳 Integrated online payment system
-
-📱 Fully responsive mobile-friendly design
+*  📱 Fully responsive mobile-friendly design
 
 "Connecting patients and doctors effortlessly, anytime, anywhere."
 
-🔗 Live Demos
+---
 
+## 🔗 Live Demos
 
-🌐 User Site
 
+* 🌐 [User Site](https://www.google.com)
 
-Explore the user interface for patients to register, book appointments, and manage their profiles.
-Click here to try the User Site (Add live link here)
 
-🛠️ Admin/Doctor Dashboard
+* 🛠️ [Admin/Doctor Dashboard](https://www.google.com)
 
+---
 
-Access the admin/doctor dashboard to manage appointments, doctor profiles, and overall system statistics.
-Click here to try the Admin/Doctor Dashboard (Add live link here)
+## ✨ Features
 
-✨ Features
+### 👨‍⚕️ Patient Panel
 
+* 📝 Register/Login as a patient
 
+* 🔎 Search and book appointments with doctors
 
-👨‍⚕️ Patient Panel
+* 📅 View and manage your booked appointments
 
+* 💳 Online Payment Integration (Disabled in Demo Mode)
 
-📝 Register/Login as a patient
+* 📱 Fully Responsive and Mobile-First Design
 
-🔎 Search and book appointments with doctors
+  
+  -----
 
-📅 View and manage your booked appointments
+### 🩺 Doctor Panel
 
-💳 Online Payment Integration (Disabled in Demo Mode)
+  Doctors have access to a dedicated dashboard with the following features:
 
-📱 Fully Responsive and Mobile-First Design
+#### 🔐 Doctor Login Credentials (Demo)
 
-🩺 Doctor Panel
+* Email: Andrew@gmail.com
 
+* Password: 12345678
 
-Doctors have access to a dedicated dashboard with the following features:
+#### 📊 Dashboard Overview
 
-🔐 Doctor Login Credentials (Demo)
-Email: Andrew@gmail.com
+* 💰 Earnings: $66
 
-Password: 12345678
+* 📅 Appointments: 2
 
-📊 Dashboard Overview
-💰 Earnings: $66
+* 👤 Patients: 2
 
-📅 Appointments: 2
+  Gives a quick snapshot of doctor activities and earnings.
 
-👤 Patients: 1
+#### 📅 Appointments Management
+* View upcoming and completed appointments
 
-Gives a quick snapshot of doctor activities and earnings.
+* Mark appointments as Complete ✅ or Cancel ❌
 
-📅 Appointments Management
-View upcoming and completed appointments
+#### 📝 Profile Management
+* Update:
 
-Mark appointments as Complete ✅ or Cancel ❌
+  * Name
 
-📝 Profile Management
-Update:
+  * Specialization
 
-Name
+  * Availability status (Available ✅ / Not Available ❌)
 
-Specialization
+  * Bio
 
-Availability status (Available ✅ / Not Available ❌)
+  * Profile Picture
+---
 
-Bio
+### 👨‍💼 Admin Panel
+  Admins have full control over the platform, including user management, appointments, and earnings.
 
-Profile Picture
+#### 🔐 Admin Login Credentials (Demo)
+* Email: deepukumar@gmail.com
 
-👨‍💼 Admin Panel
-Admins have full control over the platform, including user management, appointments, and earnings.
+* Password: Deepu@123
 
-🔐 Admin Login Credentials (Demo)
-Email: deepukumar@gmail.com
+#### 📊 Admin Dashboard Overview
+* View system-wide stats:
 
-Password: Deepu@123
+  * Total Doctors
 
-📊 Admin Dashboard Overview
-View system-wide stats:
+  * Total Appointments
 
-Total Doctors
+  * Total Patients
 
-Total Appointments
+#### 📅 Appointments Management
+* See all appointments at a glance
 
-Total Patients
+* Track doctor, patient, date, time, and appointment status
 
-📅 Appointments Management
-See all appointments at a glance
+#### 🩺 Manage Doctors
 
-Track doctor, patient, date, time, and appointment status
+* Add new doctor profiles:
 
-🩺 Manage Doctors
-Add new doctor profiles:
+  * Name, Specialization, Contact Info, Availability, Profile Photo
 
-Name, Specialization, Contact Info, Availability, Profile Photo
+* Edit or remove existing doctor profiles
+  
+---
 
-Edit or remove existing doctor profiles
+### 💳 Payment Integration
 
-💳 Payment Integration
-💸 Built-in support for secure online payments at appointment booking.
+* 💸 Built-in support for secure online payments at appointment booking.
 
-🔌 Ready to integrate popular gateways like Stripe and Razorpay.
+* 🔌 Ready to integrate popular gateways like Stripe and Razorpay.
 
-🧾 Auto-generated invoices after successful transactions.
+* 🧾 Auto-generated invoices after successful transactions.
 
-🛠️ Tech Stack
+  ---
 
+### 🛠️ Tech Stack
 
-🖥️ Frontend
+#### 🖥️ Frontend
 
 
-React.js ⚛️ — Frontend Library
+* React.js ⚛️ — Frontend Library
 
-Tailwind CSS 🎨 — Utility-First CSS Framework
+* Tailwind CSS 🎨 — Utility-First CSS Framework
 
-Axios 🔗 — Promise-based HTTP Client
+* Axios 🔗 — Promise-based HTTP Client
 
-React Router 🚦 — Routing and Navigation
+* React Router 🚦 — Routing and Navigation
 
-🖥️ Backend
+#### 🖥️ Backend
 
 
-Node.js 🌐 — JavaScript Runtime Environment
+* Node.js 🌐 — JavaScript Runtime Environment
 
-Express.js 🚀 — Web Application Framework for Node.js
+* Express.js 🚀 — Web Application Framework for Node.js
 
-💾 Database
+#### 💾 Database
 
 
-MongoDB 🍃 — NoSQL Database
+* MongoDB 🍃 — NoSQL Database
 
-Mongoose 💾 — MongoDB Object Modeling Tool
+* Mongoose 💾 — MongoDB Object Modeling Tool
 
-🔐 Authentication
+#### 🔐 Authentication
 
 
-JWT (JSON Web Tokens) 🔒 — Secure Authentication
+* JWT (JSON Web Tokens) 🔒 — Secure Authentication
 
-Bcrypt.js 🔒 — Password Hashing
+* Bcrypt.js 🔒 — Password Hashing
 
-☁️ File and Image Handling
+#### ☁️ File and Image Handling
 
 
-Multer 📤 — Middleware for handling multipart/form-data (file uploads)
+* Multer 📤 — Middleware for handling multipart/form-data (file uploads)
 
-Cloudinary ☁️ — Cloud-based Image and Video Management
+* Cloudinary ☁️ — Cloud-based Image and Video Management
 
-💳 Payment Integration
+#### 💳 Payment Integration
 
+* Stripe  💳 — Online Payment Gateway Integration
+---
 
-Stripe  💳 — Online Payment Gateway Integration
+#### 🛣️ Future Enhancements
+
+
+* ⭐ Ratings & Reviews for Doctors
+
+* 📲 Push Notifications (Web + Mobile)
+
+* 🎯 Patient History & Analytics for Doctors
+
+* 🔥 Advanced Admin Analytics Dashboard
 
